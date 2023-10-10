@@ -1,0 +1,7 @@
+str1 = 'to jest tekst 1'
+str2 = "to jest tekst 2"
+str3 = """to jest też tekst,
+          ale ma specjalne opcje
+          i tu kolejny tekst"""
+
+print(str1, str2, str3)
