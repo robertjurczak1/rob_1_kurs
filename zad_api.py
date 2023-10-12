@@ -10,3 +10,5 @@ print(temperatura)
 
 with open("pogoda.txt", "a", encoding="utf-8") as f: # zmieniliśmy z w na a
     f.write(f"\nW mieście {lokalizacja} jest {temperatura} stopni C") # dodaliśmy \n a w pliku pojawiło się w nowej linijce
+
+input("Wciśnij enter, aby zakończyć program")

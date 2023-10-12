@@ -1,3 +1,5 @@
 W mieście Kielce jest 18.6 stopni C
 W mieście Szczecin jest 12.0 stopni C
 W mieście Lodz jest 15.0 stopni C
+W mieście Szczecin jest 13.0 stopni C
+W mieście Szczecin jest 13.0 stopni C
