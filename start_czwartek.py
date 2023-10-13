@@ -13,4 +13,6 @@ ptak1.wydaj_odglos()
 ptak2 = kury.Kura("kura nioska", 1)
 ptak2.lataj()
 ptak2.produkcja_jaja(5)
+
+# print(ptak2.ilosc_jaj)
 ptak2.wydaj_odglos()

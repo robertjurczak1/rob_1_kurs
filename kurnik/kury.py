@@ -21,15 +21,15 @@ class Kura(Ptak):
 
     def __init__(self, gatunek, jaja):
         super().__init__(gatunek, jaja)
-        self.ilosc_jaj = jaja
+        self.__ilosc_jaj = jaja
 
     def lataj(self):
         print(f"Tutaj {self.gatunek}, ja nie latam i nie poluje (jeszcze)")
 
     def produkcja_jaja(self, ilosc):
         for i in range(ilosc):
-            self.ilosc_jaj += 1
-        print(f"tu {self.gatunek}, zniosłam {self.ilosc_jaj} jaj")
+            self.__ilosc_jaj += 1
+        print(f"tu {self.gatunek}, zniosłam {self.__ilosc_jaj} jaj")
 
     def wydaj_odglos(self):
         print("kokokoko")
